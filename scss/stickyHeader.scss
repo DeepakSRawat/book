@@ -1,0 +1,38 @@
+// html:not([data-scroll='0']) .sticky-top {
+//     display: flex;
+//     flex-direction: column;
+//     background-color: white;
+
+//     img {
+//         // display: none;
+//     }
+
+// }
+
+.sticky-top {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    background: white;
+
+    .first-line {
+        display: flex;
+        align-items: center;
+        justify-content: row;
+    }
+
+    .preheading {
+        margin-left: 0rem;
+        line-height: 1;
+        margin-top: 1.8rem;
+    }
+
+    .heading {
+        width: 35.7rem;
+    }
+}
+
+.sticky-top+main {
+    padding-top: 12.5rem;
+}
